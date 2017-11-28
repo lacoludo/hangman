@@ -1,0 +1,13 @@
+
+VERSION 0  RELEASE OF NEW VERSION V0.0.2
+========================================
+
+   Version 0.1 - Release of new version 0.1.0.
+      22/03/2016 14:28  0.1.0  initial release
+         4f6aa5e [AppBundle] completed the GameController actions.
+         e6521b6 [AppBundle] implemented GameController::playLetterAction controller.
+         c42a5fb [AppBundle] implemented GameController::playAction with translations.
+
+   Version 0.0 - Release of new version v0.0.2
+      22/03/2016 12:55  0.0.2  initial release
+         2be6da1 Added RMT support.

@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    HTTP Method Not Allowed
+{% endblock %}
+
+{% block body %}
+    <h1>Method Not Allowed</h1>
+
+    <p>
+        {{ status_code }} {{ status_text }}
+    </p>
+
+    <p>
+        {{ exception.message }}
+    </p>
+    
+{% endblock %}

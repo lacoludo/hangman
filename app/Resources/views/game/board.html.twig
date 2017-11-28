@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+
+{% trans_default_domain 'game' %}
+
+{% block title 'play.title'|trans %}
+
+{% block subtitle 'play.subtitle'|trans %}
+
+{% block body %}
+    <p class="attempts">
+        {{- 'play.remaining_attempts'|transchoice(game.remainingAttempts) -}}
+    </p>
+
+    <ul class="word_letters">
+        {% for letter in game.word|split('') %}
+            <li class="letter {{ game.isLetterFound(letter) ? 'guessed' : 'hidden' }}">
+                {{- game.isLetterFound(letter) ? letter|upper : '?' -}}
+            </li>
+        {% endfor %}
+    </ul>
+
+    <br class="clearfix" />
+
+    <p class="attempts">
+        <a href="{{ path('app_game_reset') }}">
+            {{- 'play.reset_game'|trans -}}
+        </a>
+    </p>
+
+    <br class="clearfix" />
+
+    <h2>{{ 'play.try_letter'|trans }}</h2>
+
+    <ul>
+        {% for letter in 'a'..'z' if letter not in game.triedLetters %}
+            <li class="letter">
+                <a href="{{ path('app_game_play_letter', {'letter': letter}) }}">
+                    {{- letter|upper -}}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <h2>{{ 'play.try_word'|trans }}</h2>
+
+    <form action="{{ path('app_game_play_word') }}" method="post">
+        <p>
+            <label for="word">{{ 'play.word'|trans }}</label>
+            <input type="text" id="word" name="word"/>
+            <button type="submit">{{ 'play.submit'|trans }}</button>
+        </p>
+    </form>
+{% endblock %}

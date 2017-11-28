@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="35fe6e378f87502de86f5fda2003c963" resname="contact.title">
+        <source>contact.title</source>
+        <target>Contact us</target>
+      </trans-unit>
+      <trans-unit id="c14bd3cf98cf974e04200970ad57fc99" resname="contact.subtitle">
+        <source>contact.subtitle</source>
+        <target>Send a contact request</target>
+      </trans-unit>
+      <trans-unit id="129091fa44cfcd7cfe5518659d5694d0" resname="contact.submit">
+        <source>contact.submit</source>
+        <target>Submit</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

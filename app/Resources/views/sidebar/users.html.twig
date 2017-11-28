@@ -1,0 +1,6 @@
+<h3>{{ 'sidebar.last_players'|trans }}</h3>
+<ul>
+    {% for character in users %}
+        <li>{{ character.username }}</li>
+    {% endfor %}
+</ul>

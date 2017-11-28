@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="a41ce6490272595520c7a2640528cc08" resname="sidebar.last_games">
+        <source>sidebar.last_games</source>
+        <target>Last Games</target>
+        <note from="hugo">
+          djewofh;wfn;wnf
+        </note>
+        <note from="thomas">
+          djewofh;wfn;wnf
+        </note>
+      </trans-unit>
+      <trans-unit id="f32428427dd73eff6dfaf3c98ac27590" resname="sidebar.last_players">
+        <source>sidebar.last_players</source>
+        <target>Last Players</target>
+      </trans-unit>
+      <trans-unit id="de8416862d565b02c389848f54767a64" resname="menu.game">
+        <source>menu.game</source>
+        <target>Game</target>
+      </trans-unit>
+      <trans-unit id="433158fd0cbcc200da8a7466a393ce3a" resname="menu.signup">
+        <source>menu.signup</source>
+        <target>Register</target>
+      </trans-unit>
+      <trans-unit id="bb287108f8db8bb4f7895a364e4c561c" resname="menu.signin">
+        <source>menu.signin</source>
+        <target>Login</target>
+      </trans-unit>
+      <trans-unit id="9fd59920b1e1f67f4620dd4d6ab7c5b3" resname="menu.contact">
+        <source>menu.contact</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="797a9670e2732097498906b9e515da2d" resname="menu.logout">
+        <source>menu.logout</source>
+        <target>Logout</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,31 @@
+<ul>
+    <li class="first current_page_item">
+        <a href="{{ path('app_game_play') }}">
+            {{- 'menu.game'|trans -}}
+        </a>
+    </li>
+    {% if not app.user %}
+    <li>
+        <a href="{{ path('app_signup') }}">
+            {{- 'menu.signup'|trans -}}
+        </a>
+    </li>
+    <li>
+        <a href="{{ path('app_login') }}">
+            {{- 'menu.signin'|trans -}}
+        </a>
+    </li>
+    {% endif %}
+    <li>
+        <a href="{{ path('app_contact') }}">
+            {{- 'menu.contact'|trans -}}
+        </a>
+    </li>
+    {% if app.user %}
+    <li>
+        <a href="{{ path('app_logout') }}">
+            {{- 'menu.logout'|trans -}}
+        </a>
+    </li>
+    {% endif %}
+</ul>

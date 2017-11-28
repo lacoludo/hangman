@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="4aa161986c50cdc5f6f94c4ca01dde8c" resname="play.title">
+        <source>play.title</source>
+        <target>Play the famous Hangman game</target>
+      </trans-unit>
+      <trans-unit id="36445df0a950576e8bd81d056f150e56" resname="play.subtitle">
+        <source>play.subtitle</source>
+        <target>Guess the Mysterious Word</target>
+      </trans-unit>
+      <trans-unit id="0bd036667f84ef7bc4d8805ceaab32d7" resname="play.remaining_attempts">
+        <source>play.remaining_attempts</source>
+        <target>
+            ]-Inf,0] Game is over, there are no more attempts!
+            |{1} Be careful, this is your last chance!
+            |[2,7] Beware, you still have %count% attempts!
+            |[8,+Inf[ You still have %count% attempts!
+        </target>
+      </trans-unit>
+      <trans-unit id="d73f4b986ecffbd98ab7df4e2994831e" resname="play.reset_game">
+        <source>play.reset_game</source>
+        <target>Reset the game</target>
+      </trans-unit>
+      <trans-unit id="4d3aed89d3c4f3f0046a859a5d5c8e36" resname="play.try_letter">
+        <source>play.try_letter</source>
+        <target>Try a letter</target>
+      </trans-unit>
+      <trans-unit id="4c0a0d012da6a1670fe6f736ee6589f9" resname="play.try_word">
+        <source>play.try_word</source>
+        <target>Try a word</target>
+      </trans-unit>
+      <trans-unit id="a798ff570b1e0d402c71f3bcffdbe602" resname="play.word">
+        <source>play.word</source>
+        <target>Word:</target>
+      </trans-unit>
+      <trans-unit id="b3c750c0adff6f38b7276be845ff53bf" resname="play.submit">
+        <source>play.submit</source>
+        <target>Let me guess...</target>
+      </trans-unit>
+      <trans-unit id="b392b8ba83d2a62d36d0fe6e09e055ba" resname="fail.title">
+        <source>fail.title</source>
+        <target>Game is over!</target>
+      </trans-unit>
+      <trans-unit id="207fe6e04836e39c578570b083304d52" resname="fail.subtitle">
+        <source>fail.subtitle</source>
+        <target>Oops, you lost this game!</target>
+      </trans-unit>
+      <trans-unit id="60d18de3ed14d1cdea92bde31b9ded60" resname="fail.message">
+        <source>fail.message</source>
+        <target>Sorry, you didn't find the word %word%!</target>
+      </trans-unit>
+      <trans-unit id="65147fcb251c7f858cc0b69144c9c162" resname="win.title">
+        <source>win.title</source>
+        <target>Game is won!</target>
+      </trans-unit>
+      <trans-unit id="860bb697ed533110304ba279333c05c3" resname="win.subtitle">
+        <source>win.subtitle</source>
+        <target>Yeah! You won this game!</target>
+      </trans-unit>
+      <trans-unit id="76f06dfbeacb9077c449a09567a5b351" resname="win.message">
+        <source>win.message</source>
+        <target>Congratulations, you found the word %word%!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,8 @@
+homepage:
+    path: /
+    defaults: { _controller: 'AppBundle:Security:login', menu: security }
+    methods: GET
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

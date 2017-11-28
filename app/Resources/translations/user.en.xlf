@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="77a206252395f65c34547443b528deee" resname="signup.title">
+        <source>signup.title</source>
+        <target>Create your account</target>
+      </trans-unit>
+      <trans-unit id="8d18eb01d6a42d630c2f7cbef70862d7" resname="signup.subtitle">
+        <source>signup.subtitle</source>
+        <target>Free registration</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

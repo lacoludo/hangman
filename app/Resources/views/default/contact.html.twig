@@ -1,0 +1,14 @@
+{% extends 'layout.html.twig' %}
+
+{% form_theme form 'bootstrap_3_layout.html.twig' %}
+
+{% block title %}
+    {{ parent() }} Contact
+{% endblock %}
+
+{% block content %}
+    {{ form_start(form) }}
+        {{ form_rest(form) }}
+        <button type="submit">{{ 'contact.submit'|trans }}</button>
+    {{ form_end(form) }}
+{% endblock %}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="b3bb2f3a0735826a87f457845b0a858e" resname="login.title">
+        <source>login.title</source>
+        <target>Login</target>
+      </trans-unit>
+      <trans-unit id="f6a7507c8f002b1e9091920898fb9b87" resname="login.subtitle">
+        <source>login.subtitle</source>
+        <target>Access your personal area</target>
+      </trans-unit>
+      <trans-unit id="04690da6d3ca208f2f065360ec75252f" resname="login.username">
+        <source>login.username</source>
+        <target>Username:</target>
+      </trans-unit>
+      <trans-unit id="f65ca78feddae7561d8d7e8f6f560c19" resname="login.password">
+        <source>login.password</source>
+        <target>Password:</target>
+      </trans-unit>
+      <trans-unit id="4fea9c0c55b120a2fa9013e957148d91" resname="login.submit">
+        <source>login.submit</source>
+        <target>Submit</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

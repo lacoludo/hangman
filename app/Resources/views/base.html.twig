@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>{% block title %}Hangman Game{% endblock %}</title>
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <div id="logo">
+                    <h1>
+                        <a href="{{ path('homepage') }}">Hangman</a>
+                    </h1>
+                </div>
+                <div id="menu">
+                    {{ include('menu.html.twig') }}
+                    <br class="clearfix" />
+                </div>
+            </div>
+    
+            <div id="page">
+                <div id="content">
+                    {% if block('subtitle') %}
+                        <h2>{{ block('subtitle') }}</h2>
+                    {% endif %}
+
+                    {% if app.session.flashBag.has('notice') %}
+                        <div class="flash-notice">
+                            <ul>
+                                {% for message in app.session.flashBag.get('notice') %}
+                                    <li>{{ message|trans }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    {% endif %}
+
+                    {% block body %}{% endblock %}
+                </div>
+                <div id="sidebar">
+                    {{ render(controller('AppBundle:Sidebar:listLastGames')) }}
+                    {{ render(controller('AppBundle:Sidebar:listLastUsers')) }}
+                </div>
+                <br class="clearfix" />
+            </div>
+        </div>
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
